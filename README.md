@@ -18,8 +18,10 @@ masked and non-masked drivers. We used the Beautiful Soap and Requests library t
 download the images from the websites and saved them into different folders with each 
 containing the masked and non-masked driver.
 
-You can use the code in Scraper_Non_Masked.py and Scrapper_Masked.py which extracts the image from below website and splits them as Masked and Non Masked Images folder
+You can use the code in Scraper_Non_Masked.py and Scrapper_Masked.py which extracts the image from below website and splits them as Masked and Non Masked Images folder.
+
 Link url1 = 'https://www.gettyimages.in/photos/driving-mask?page='
+
 Link url2 = 'https://www.gettyimages.in/photos/driving-without-mask?page='
 
 
