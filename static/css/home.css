@@ -1,0 +1,52 @@
+label{
+
+	display:block;
+    padding:10px;
+    font-size:20px;
+    margin:2px 0;
+    font-family: "Verdana";
+    }
+
+  input{
+    display:block;
+    width:70%;
+    border:2px solid #2980B9;
+    padding:5px;
+    font-size:14px;
+    border-radius:5px;
+    margin:2px 0;
+    height: 30px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+  }
+
+   textarea{
+    border:2px solid #2980B9;
+    padding:5px;
+    font-size:14px;
+    border-radius:5px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+  }
+
+
+  .sbt_btn{
+  border:0;
+  background:#008CBA;
+  padding:.5rem;
+  color:white;
+  margin:1rem 0;
+  width:40%;
+  /*text-transform:uppercase;*/
+  cursor:pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px;
+  height: 50px;
+
+  transition:.3s background ease;
+  &:hover{
+    background:#3498DB;
+  }
