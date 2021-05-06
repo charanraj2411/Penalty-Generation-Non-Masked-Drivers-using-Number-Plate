@@ -67,9 +67,7 @@ The above code is availabe in License_Details_MongoDB.ipynb file
 
 
 # Integrating Flask with two Models and MongoDB for End   to End Flow
-We created a flask main.py which is linked to various HTML templates to take inputs from the user for car driver images in front end. Later the image is being processed by the CNN model for face mask detection in the backend and results are displayed in the HTML template whether the driver is masked.
-
-Below is the html template which is displayed to the user as part of image file upload.
+We created a flask main.py which is linked to various HTML templates to take inputs from the user for car driver images in front end. Later the image is being processed by the CNN model for face mask detection in the backend and results are displayed in the HTML template whether the driver is masked.Below is the html template which is displayed to the user as part of image file upload.
 
 ![image](https://user-images.githubusercontent.com/42905724/117264984-67be6300-ae71-11eb-8fec-304da29f6f32.png)
 
