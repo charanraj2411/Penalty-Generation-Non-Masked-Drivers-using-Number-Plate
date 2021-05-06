@@ -49,3 +49,4 @@ Next we store the model created using the above process in pickle file. Later we
 The entire above code is placed in Face_Mask_Detection_Model.ipynb file
 
 
+# License Number  Plate Text Extraction
