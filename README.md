@@ -54,3 +54,9 @@ The entire above code is placed in Face_Mask_Detection_Model.ipynb file
 We apply the image processing technique on the number plate to reduce the image size and track the number late by drawing a rectangular  box around the number plate.We can  extract the License Number using  OpenCV. We can extract the text using the Edge detection technique. We covert the image into bilateral filter mode after obtaining the image in GrayScale format. Next we draw the box around region of interest which consists of license ID.Using the Pytesseract library which  has image to string function we can  obtain the License number.
 
 The entire above code is placed in License_Plate_Detection.ipynb file
+
+
+# Building Dummy MongoDB Database for License Holders
+We create a database named Charan in the MongoDB using the pymongo library. A table named License Details is created inside the mongoDB  consisting of various fields such License ID, Name of candidate, Address and Number Plate. So we design a dummy database table consisting of all the relevant details to identify the person details using the Number plate.
+
+Create a list of dictionaries consisting of data in key value format. We can directly push the details into the table by passing the list as parameter in the insert_many function of mongoDB
