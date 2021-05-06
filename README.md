@@ -78,9 +78,7 @@ Below is the html template that is displayed once the POST method sends out the 
 
 ![image](https://user-images.githubusercontent.com/42905724/117265029-7147cb00-ae71-11eb-9106-be8c6698030e.png)
 
-Next we upload the image of the vehicle which has been identified as having driver without masks on. The image of vehicle is again processed through a image preprocessing stage where the model tries to extract the text from the number plate box in the image of vehicle.
-
-Below is the Vehicle image upload page which receives input from the user and processes the vehicle image to obtain the text of number plate.
+Next we upload the image of the vehicle which has been identified as having driver without masks on. The image of vehicle is again processed through a image preprocessing stage where the model tries to extract the text from the number plate box in the image of vehicle.Below is the Vehicle image upload page which receives input from the user and processes the vehicle image to obtain the text of number plate.
 
 ![image](https://user-images.githubusercontent.com/42905724/117265102-83296e00-ae71-11eb-8d08-a485deff5716.png)
 
