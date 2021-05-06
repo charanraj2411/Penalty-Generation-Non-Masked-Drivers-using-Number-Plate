@@ -9,7 +9,7 @@ which contains data of license holders alongwith the details of the vehicle. Bas
 
 ![image](https://user-images.githubusercontent.com/42905724/117260870-23c95f00-ae6d-11eb-89c8-bee7119d1e89.png)
 
-#**Index**
+# Index
 
 The onset of project always begins with the problem of determining the dataset to be used. 
 In our project online surfing could hardly help us with already existing dataset which can be 
