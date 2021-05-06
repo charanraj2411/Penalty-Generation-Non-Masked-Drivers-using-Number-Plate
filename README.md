@@ -50,3 +50,7 @@ The entire above code is placed in Face_Mask_Detection_Model.ipynb file
 
 
 # License Number  Plate Text Extraction
+
+We apply the image processing technique on the number plate to reduce the image size and track the number late by drawing a rectangular  box around the number plate.We can  extract the License Number using  OpenCV. We can extract the text using the Edge detection technique. We covert the image into bilateral filter mode after obtaining the image in GrayScale format. Next we draw the box around region of interest which consists of license ID.Using the Pytesseract library which  has image to string function we can  obtain the License number.
+
+The entire above code is placed in License_Plate_Detection.ipynb file
