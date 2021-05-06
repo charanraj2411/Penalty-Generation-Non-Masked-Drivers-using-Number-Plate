@@ -29,3 +29,5 @@ Link url2 = 'https://www.gettyimages.in/photos/driving-without-mask?page='
 Before sending the images to the model we need to apply some cleaning techniques such
 as image resizing image greyscaling and rescaling the pixels to lower values. Later the 
 images and targets are saved in an array. 
+
+You can use the code in Data_Preprocess.ipynb
