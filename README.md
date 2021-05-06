@@ -62,5 +62,7 @@ We create a database named Charan in the MongoDB using the pymongo library. A ta
 Create a list of dictionaries consisting of data in key value format. We can directly push the details into the table by passing the list as parameter in the insert_many function of mongoDB
 
 The above code is availabe in License_Details_MongoDB.ipynb file
-![Uploading image.png…]()
+
+![image](https://user-images.githubusercontent.com/42905724/117264450-dd75ff00-ae70-11eb-87cb-5062b1676e0e.png)
+
 
