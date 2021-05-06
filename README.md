@@ -31,3 +31,21 @@ as image resizing image greyscaling and rescaling the pixels to lower values. La
 images and targets are saved in an array. 
 
 You can use the code in Data_Preprocess.ipynb
+
+
+# Constructing the CNN Model
+
+Here we design the CNN model using Sequential modeling of Keras. A CNN is constructed with around 200 neurons as inputs. After applying the activation function and maxpooling 
+Techniques we then get another set of output features which will be passed through another
+layer of Conv2D. At the end we get 2 outputs from softmax which represents masked 
+or non-masked status of input image.
+
+After constructing the CNN model we split the data into train and test sets. Later we fit the CNN model on the train and test data by setting various parameters such as epochs, training set, validation set and validation split values.
+
+We then calculate the loss and accuracy in terms of both training and testing dataset. It is observed that the accuracy of testing dataset is a bit less than training dataset. Also the loss occurred in testing dataset is more compared to testing dataset.
+
+Next we store the model created using the above process in pickle file. Later we will be utilizing the model in order to determine whether the given image has driver with facemask on or not. Basically, the output of the model will have two values representing masked and non masked probabilities. Out of the two the probability value more than 0.5 will be treated as end result. The first value inside the array output represents the probability of driver being masked and second represents the probability of driver being non-masked.
+
+The entire above code is placed in Face_Mask_Detection_Model.ipynb file
+
+
