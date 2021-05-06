@@ -60,3 +60,7 @@ The entire above code is placed in License_Plate_Detection.ipynb file
 We create a database named Charan in the MongoDB using the pymongo library. A table named License Details is created inside the mongoDB  consisting of various fields such License ID, Name of candidate, Address and Number Plate. So we design a dummy database table consisting of all the relevant details to identify the person details using the Number plate.
 
 Create a list of dictionaries consisting of data in key value format. We can directly push the details into the table by passing the list as parameter in the insert_many function of mongoDB
+
+The above code is availabe in License_Details_MongoDB.ipynb file
+![Uploading image.png…]()
+
