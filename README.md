@@ -66,3 +66,53 @@ The above code is availabe in License_Details_MongoDB.ipynb file
 ![image](https://user-images.githubusercontent.com/42905724/117264450-dd75ff00-ae70-11eb-87cb-5062b1676e0e.png)
 
 
+# Integrating Flask with two Models and MongoDB for End   to End Flow
+We created a flask main.py which is linked to various HTML templates to take inputs from the user for car driver images in front end. Later the image is being processed by the CNN model for face mask detection in the backend and results are displayed in the HTML template whether the driver is masked.
+
+Below is the html template which is displayed to the user as part of image file upload.
+![image](https://user-images.githubusercontent.com/42905724/117264984-67be6300-ae71-11eb-8fec-304da29f6f32.png)
+
+
+Below is the html template that is displayed once the POST method sends out the result after processing the image if its masked or not?
+![image](https://user-images.githubusercontent.com/42905724/117265029-7147cb00-ae71-11eb-9106-be8c6698030e.png)
+
+Next we upload the image of the vehicle which has been identified as having driver without masks on. The image of vehicle is again processed through a image preprocessing stage where the model tries to extract the text from the number plate box in the image of vehicle.
+
+Below is the Vehicle image upload page which receives input from the user and processes the vehicle image to obtain the text of number plate.
+![image](https://user-images.githubusercontent.com/42905724/117265102-83296e00-ae71-11eb-8d08-a485deff5716.png)
+
+Once the text of license number is extracted we need to find the details of the license holder using the number plate. Here we connect to the MongoDB created table named License_Details.
+Once the details such as License Number,Name, Address are obtained we can generate the fine and display it on the HTML template page.
+![image](https://user-images.githubusercontent.com/42905724/117265135-8cb2d600-ae71-11eb-9f4b-50d61c27131d.png)
+
+
+# References
+1.	Face Mask Detector 
+     https://www.researchgate.net/publication/344173985_Face_Mask_Detector
+
+2.	Face Recognition with Facial Mask Application and Neural Networkshttps://link.springer.com/chapter/10.1007/978-3-540-73007-1_85
+
+3.	An Automated System to Limit COVID-19 Using Facial Mask Detection in Smart City Network: https://ieeexplore.ieee.org/document/9216386
+
+
+4.	Automated Car Number Plate Detection System to detect far number plates http://www.iosrjournals.org/iosr-jce/papers/Vol18-issue4/Version-3/F1804033440.pdf 
+
+5.	Automatic Number Plate Recognition System (ANPR): A Survey
+https://www.researchgate.net/publication/236888959_Automatic_Number_Plate_Recognition_System_ANPR_A_Survey
+
+6.	COVID-19: Face Mask Detector with OpenCV, Keras/TensorFlow, and Deep Learning
+
+7.	https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/
+
+8.	OpenCV: Automatic License/Number Plate Recognition (ANPR) with Python
+https://www.pyimagesearch.com/2020/09/21/opencv-automatic-license-number-plate-recognition-anpr-with-python/
+     
+9.	https://github.com/prajnasb/observations/tree/master/mask_classifier
+
+10.	https://github.com/aieml/face-mask-detection-keras
+
+11.	 License Plate Recognition using OpenCV Python
+https://medium.com/programming-fever/license-plate-recognition-using-opencv-         python-7611f85cdd6c
+
+12.	 Plate Number Detection
+  https://www.kaggle.com/alpertemel/plate-number-detection
