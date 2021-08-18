@@ -47,7 +47,7 @@ def upload_file():
         data=np.array(data)/255.0
         data=np.reshape(data,(data.shape[0],img_size,img_size,1))
         
-        new_model = load_model('saved_model.pb')
+        new_model = load_model('saved_model/my_model')
         output = new_model.predict(data)
         
 
