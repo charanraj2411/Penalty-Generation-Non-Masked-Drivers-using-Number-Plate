@@ -11,7 +11,7 @@ import re
 
 app = Flask(__name__)
 app.config['UPLOAD_PATH'] = 'static/image'
-client = pymongo.MongoClient("mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false")
+client = pymongo.MongoClient("mongodb+srv://charanraj2411:12345@charan.vsgpw.mongodb.net/Charan?retryWrites=true&w=majority")
 db = client['Charan']
 collection = db['License_Details']
 
