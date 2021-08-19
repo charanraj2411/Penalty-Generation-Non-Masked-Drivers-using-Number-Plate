@@ -4,7 +4,7 @@ import numpy as np
 from keras.models import load_model
 import imutils
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = '/app/vendor/tesseract-ocr/bin/tesseract'
+pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
 import pymongo
 import re
 
